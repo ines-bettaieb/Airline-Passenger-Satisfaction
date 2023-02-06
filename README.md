@@ -20,5 +20,13 @@ The dataset for this project is obtained from Kaggle which contains the data sou
 The dataset consists of a column or feature named ‘satisfaction’ which describes the overall satisfaction level of the customer. It has two values, ‘neutral or dissatisfied’ and ‘satisfied’. This satisfaction feature is considered as the label feature since it conveys the overall experience of the customer based on the ratings given for other features. The dataset consists of 103904 and 25976 records in train and test respectively.
 
 ## Methodology
-This notebook consits of 5 parts and is structured as follows :
-- Part 1 : EDA with analysis of missing data, data cleaning, uni and bi-variate analysis
+This notebook is structured as follows :
+- Part 1 : EDA with analysis of missing data, data cleaning, uni and bi-variate analysis and data preprocessing
+- Part 2 : Baseline model using 3 classifier (Random Forest, Logistic regression and Gradient Boosting)
+- Part 3 : Hyperparameter tuning and feature selection
+- Part 4 : Final model selection using the most significant features
+- Part 5 : Error Analysis 
+
+## Conclusion
+Random Forest classifier achieved the best results in terms of accuracy (93.3%), precision (~94.0%) and recall (91.0%).
+Among the 22 variables, only 6 play a significant role on customer's satisfaction : 'Class','Inflight entertainment','Seat comfort','Online boarding','Inflight wifi service' and 'Type of Travel'.
