@@ -22,7 +22,7 @@ The dataset consists of a column or feature named ‘satisfaction’ which descr
 ## Methodology
 This notebook is structured as follows :
 - Part 1 : EDA with analysis of missing data, data cleaning, uni and bi-variate analysis and data preprocessing
-- Part 2 : Baseline model using 3 classifier (Random Forest, Logistic regression and Gradient Boosting)
+- Part 2 : Baseline model using 3 classifiers (Random Forest, Logistic regression and Gradient Boosting)
 - Part 3 : Hyperparameter tuning and feature selection
 - Part 4 : Final model selection using the most significant features
 - Part 5 : Error Analysis 
